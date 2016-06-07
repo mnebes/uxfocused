@@ -1,0 +1,477 @@
+.navbar-inverse {
+  /*background-color: #444;*/
+  text-align: center;
+  color: #fff;
+  font-weight: 400;
+  font-family: "Raleway";
+
+    /* IE10 Consumer Preview */ 
+    background-image: -ms-linear-gradient(top, #444444 0%, #222222 200%);
+
+    /* Mozilla Firefox */ 
+    background-image: -moz-linear-gradient(top, #444444 0%, #222222 200%);
+
+    /* Opera */ 
+    background-image: -o-linear-gradient(top, #444444 0%, #222222 200%);
+
+    /* Webkit (Safari/Chrome 10) */ 
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #444444), color-stop(2, #222222));
+
+    /* Webkit (Chrome 11+) */ 
+    background-image: -webkit-linear-gradient(top, #444444 0%, #222222 200%);
+
+    /* W3C Markup, IE10 Release Preview */ 
+    background-image: linear-gradient(to bottom, #444444 0%, #222222 200%);
+}
+
+.navbar-inverse a {
+  color: #fff;
+  font-size: 16px;
+  text-align: left;
+
+}
+
+
+.navbar-inverse a:hover {
+  color: #fff;
+  background: transparent;
+  text-align: left;
+  text-decoration: underline;
+}
+
+a:hover {
+    color: #555 !important;
+}
+
+.desaturate:hover {
+    filter: grayscale(0%); 
+    -webkit-filter: grayscale(0%); 
+    -moz-filter: grayscale(0%); 
+    -ms-filter: grayscale(0%); 
+    -o-filter: grayscale(0%);
+}
+
+
+.desaturate {
+    filter: grayscale(100%); 
+    -webkit-filter: grayscale(100%); 
+    -moz-filter: grayscale(100%); 
+    -ms-filter: grayscale(100%); 
+    -o-filter: grayscale(100%);
+}
+
+.fadein {
+   opacity: 0.8;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+   }
+
+.fadein:hover {
+      opacity: 1;
+}
+
+
+p {
+     font-size: 18px;
+}
+
+.section_number {
+    padding-bottom: 25px;
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.section_number p {
+    text-align: center !important;
+    font-size: 18px;
+}
+
+
+
+.przycisk {
+    width: 25%;
+    height: 45px;
+    background-color: #74c6c6;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    /*background-image: url('../img/ania5.jpg');*/
+}
+
+#intro {
+    background: url(../img/tlo_intro6.jpg) no-repeat center top;
+   /* background-color: #000;*/
+  /*  height: 100%;*/
+    width: 100%;
+    background-attachment: fixed;
+
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.dirt {
+    /*background-image: url(../img/dirt.png);*/
+    width: 100%;
+    height: 100%;
+    /*background-repeat: repeat;*/
+    text-align: center;
+    padding-top: 23%;
+    text-align: center;
+
+}
+
+
+.dirt h1 {
+    color: #fff;
+    font-weight: 400;
+}
+
+.dirt h2 {
+    color: #fff;
+    font-weight: 400;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.logo {
+    color: #fff;
+    font-size: 78px;
+    font-family: 'Sacramento', cursive;
+    line-height: 1.5;
+}
+
+.scroll {
+    text-transform: uppercase;
+    height: 70px;
+    width: 140px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;/*
+    font-size: 20px !important;*/
+    letter-spacing: 5px !important;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+    /*border: 2px solid #fff;*/
+    color: #fff;
+    padding: 20px 20px;
+    /*border-radius: 1px;*/
+}
+
+.scroll:hover{
+    text-transform: uppercase;
+   /* background-color: #fff;*/
+    /*border: 2px solid #fff;*/
+    opacity:0.6;
+  /*  height: 80px;
+    width: 150px;*/
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+   /* font-size: 20px !important;*/
+    letter-spacing: 2px;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+    /*color: #02b9bf;*/
+    color: #333;
+   /* padding: 24px 20px;*/
+   /* border-radius: 1px;*/
+}
+
+#scrollDown1 {
+    font-size: 40px !important;
+}
+#scrollDown2 {
+    font-size: 20px !important;
+}
+#scrollDown3 {
+    font-size: 10px !important;
+}
+
+
+
+
+/*.welcomeMessage {
+    text-align: left;
+    border-left: 10px solid #555;
+    padding-left: 10px;
+}*/
+
+.all p {
+    text-align: left;
+    /*color: #fff;*/
+}
+
+.all img {
+    margin-bottom: 5px;
+    /*border: 1px solid #c9d7d8;*/
+}
+
+
+.all h1 {
+    text-align: center;
+    /*font-weight: 400;*/
+    text-transform: uppercase;
+    padding-top: 10px;
+    letter-spacing: 2px;
+
+}
+
+.all h5 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    line-height: 1.5;
+    font-size: 13px;
+
+}
+
+.onecolumn {
+    margin-left: auto ;
+    margin-right: auto ;
+    float: none !important;
+    padding-bottom: 1%;
+    /*margin-top: 50px;*/
+}
+
+.greydiv {
+    background-color: #fbfbfb;
+}
+
+/*========== hello =========*/
+
+.hello {
+    background: url(../img/tlo_hell22.jpg) no-repeat center top;
+    /*height: 35%;*/
+    width: 100%;
+    background-attachment: fixed;
+
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+
+
+/*========== resume =========*/
+
+.skills {
+    background: url(../img/tlo_skills2.jpg) no-repeat center top;
+   /* height: 35%;*/
+    background-color: #e7e7e7;
+    width: 100%;
+    background-attachment: fixed;
+
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.res {
+    text-align: left;
+   /* font-size: 18px;*/
+    /*padding-right: 10px;
+    padding-left: 10px;*/
+}
+
+
+.pl_for_btn {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.pl_for_btn p {
+    text-align: center !important;
+    font-size: 18px;
+}
+.butt {
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 2px;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+    border: 1px solid #888;
+    color: #555;
+    padding: 10px 20px;
+    border-radius: 0px;
+}
+
+.butt a {
+    color: #555;
+}
+
+.butt a:hover,
+a:focus {
+    /*color: #c0392b;*/
+    text-decoration: none;
+    outline: 0;
+    background-color: transparent;
+}
+
+.butt:hover {
+   /* color: #fff;*/
+   border-radius: 0px;
+
+}
+
+
+/*========== the way i work =========*/
+
+.work {
+    background: url(../img/tlo_work2.jpg) no-repeat center top;
+    background-color: #e7e7e7;
+    width: 100%;
+    background-attachment: fixed;
+
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+#work p {
+    font-size: 16px;
+}
+
+/*========== quote =========*/
+
+.quote p {
+    font-size: 17px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 2;
+    font-weight: 500;
+
+}
+
+
+
+.quoteBig {
+    background: url(../img/quote2.jpg) no-repeat center top;
+    /*background-color: #f9f8f8;*/
+    width: 100%;
+    background-attachment: fixed;
+
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /*background-color: #f9f8f8;*/
+    border-top: 1px solid  #e7e7e7;
+    border-bottom: 1px solid  #e7e7e7;
+}
+
+.quoteBig p {
+    color: #fff;
+}
+
+
+
+/*========== samples =========*/
+
+.modal-title {
+    text-transform: uppercase;
+    /*font-size: 16px;*/
+    letter-spacing: 3px;
+    text-align: center;
+    padding-top: 25px;
+
+}
+
+.modal-body p {
+    font-size: 16px;
+}
+
+/*========== contact =========*/
+
+.contact {
+  /*  background: url(../img/quote2.jpg) no-repeat center top;*/
+    height: 10px !important;
+    width: 100%;
+    background-attachment: fixed;
+
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#contact .icon {
+    font-size: 55px;
+    line-height: 30px;
+    margin-bottom: 10px;
+    color: #01b8c0;
+    opacity: 0.5;
+}
+
+#contact p {
+    text-align: center;
+}
+
+#contactBig {
+    background-color: #f9f8f8;
+    border-top: 1px solid  #e7e7e7;
+    width: 100%;
+}
+
+
+.iconLink a:hover {
+    background-color: transparent !important;
+}
+
+
+.summary{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.title {
+    letter-spacing: 4px;
+    padding-top: 20px;
+
+}

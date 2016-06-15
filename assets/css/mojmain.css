@@ -74,6 +74,7 @@ a:hover {
 
 p {
      font-size: 18px;
+     font-weight: 400
 }
 
 .section_number {
@@ -295,7 +296,7 @@ p {
 
 .res {
     text-align: left;
-   /* font-size: 18px;*/
+    font-weight: 400;
     /*padding-right: 10px;
     padding-left: 10px;*/
 }

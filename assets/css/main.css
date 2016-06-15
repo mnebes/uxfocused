@@ -162,7 +162,7 @@ a img {
 /* Titles */
 h1, h2, h3, h4, h5, h6 {
     font-family: "Raleway";
-    font-weight: 300;
+    font-weight: 400;
     color: #333;
 }
 
@@ -333,7 +333,7 @@ a:after {
 	margin-right: 30px;
 	letter-spacing: 1px;
 	padding-top: 15px;
-/*	padding-bottom: 15px;*/p
+/*	padding-bottom: 15px;*/
 }
 
 .greywrap .icon {
@@ -511,7 +511,7 @@ a:after {
 	padding-top: 9px;
 	padding-left: 20px;
 	padding-bottom: 22px;
-	color: #5555;
+	color: #555;
 	font-weight: 400;
 	text-align: left;
 	letter-spacing: 2px;
@@ -524,7 +524,7 @@ a:after {
 	margin-left: 20px;
 	display: inline-block;
 	/*background: #2f2f2f;*/
-	color: #55555;
+	color: #555;
 	font-size: 13px;
 }
 
